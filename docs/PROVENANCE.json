@@ -1,0 +1,13 @@
+{
+  "packaged_on": "2026-10-29",
+  "entries": [
+    {
+      "project": "loan",
+      "destination": "archive/loan_presentation_text.txt",
+      "status": "historical_text_extract",
+      "source_sha256": "e68da47ca98abffcab1186a04cdb3c5252da1c2aa173a36876cbabd03aa2798d",
+      "packaged_sha256": "e68da47ca98abffcab1186a04cdb3c5252da1c2aa173a36876cbabd03aa2798d"
+    }
+  ],
+  "note": "Source paths retained locally. Later prose and split wrappers are new. Original author attribution is retained; no license is granted by packaging."
+}

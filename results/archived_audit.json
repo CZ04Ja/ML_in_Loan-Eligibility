@@ -1,0 +1,59 @@
+{
+  "audit_date": "2026-10-22",
+  "not_rerun_during_packaging": true,
+  "results": {
+    "loan": {
+      "kind": "NEW clean learning pipeline on archived dataset; NOT reproduction of historic 83.76%",
+      "rows": 614,
+      "train": 460,
+      "test": 154,
+      "target": "approval label, NOT default",
+      "split_seed": 42,
+      "results": {
+        "majority": {
+          "accuracy": 0.6883116883116883,
+          "macro_f1": 0.4076923076923077,
+          "confusion_true_rows_pred_columns_N_Y": [
+            [
+              0,
+              48
+            ],
+            [
+              0,
+              106
+            ]
+          ]
+        },
+        "logistic": {
+          "accuracy": 0.8636363636363636,
+          "macro_f1": 0.8181818181818181,
+          "confusion_true_rows_pred_columns_N_Y": [
+            [
+              28,
+              20
+            ],
+            [
+              1,
+              105
+            ]
+          ]
+        },
+        "forest": {
+          "accuracy": 0.8506493506493507,
+          "macro_f1": 0.8042120391354817,
+          "confusion_true_rows_pred_columns_N_Y": [
+            [
+              28,
+              20
+            ],
+            [
+              3,
+              103
+            ]
+          ]
+        }
+      },
+      "warning": "No dated or external validation; no lending deployment claim."
+    }
+  }
+}

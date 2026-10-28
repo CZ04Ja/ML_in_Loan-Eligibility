@@ -1,0 +1,30 @@
+
+## word/document.xml
+For today’s presentation, I would like to briefly introduce the topic: 
+ML Application in Finance for Loan Eligibility Prediction: A Comparative Study of Classification Models
+Content
+To begin with some background information of the topic, 
+As there is rapid growth in the banking and financial sector every individual is relying on the banks and the loans provided by global and national banking sectors.
+At the same time, loans and the interest banks accrue are the heartbeat of the banking sector, as they essentially profits from the interest of loens. However, the problem arises when banks don’t know if the loan applicants have the ability to repay the loan, thus they have to employ loan eligibility prediction systems to automatically assess the likelihood that a person or company will be able to repay the loan and then decide whom to offer the loan and whom not to.
+Traditional loan eligibility assessment methods have a lot of limitations in handling complex data patterns and making accurate predictions. Credit Scoring Models is a typical example, which assign a credit score to individuals based on their credit history, which is then used to determine loan eligibility. But it ignores other relevant factors ,leading to an incomplete picture of a borrower's creditworthiness.
+Nowadays, Numerous research papers and studies have explored various machine learning algorithms and techniques to enhance the accuracy and efficiency of loan approval processes.
+the existing research demonstrates the potential of machine learning in loan eligibility prediction, offering more accurate and data-driven decision-making in the lending industry. Professor Kuma from India has summarized the current study of machine learning in loan eligibility position like this.
+A lot of data processing steps should be involved in order to enable the data be prepared for machine learning model train and validation. for example, using functions like shape and info to understand the data categories, and then we 
+need to fill 
+empty
+ values with
+ 
+mode
+ and median using missingno package
+ and so on. By doing these steps, we can gain an overview on the key information of the data, here’s a specific example of the information we may get from loan applicants data, which will be used later in ML models to be trained.
+we will be able to learn the Impact of Gender, Education, Self Employed and Credit History on Loan Status
+then we can decide which features are with more importance,thus we can give high weight to them when we do model training, or ignore some of the factors that does not matter.
+there will be graphs plotted like these to help discover the patterns of the data and relations between factors, which enable us to select the key features.
+models such as logistic regression, decision trees, random forests, support vector machines, and gradient boosting methods, in my case i will only focus on these two ,explain how they works to predict the loan eligibility in general and try to evaluate their performance,
+It is particularly suitable when the outcome variable (i.e., whether a loan is approved or not) is binary, meaning it has only two possible values (e.g., "eligible" or "not eligible").
+Before fitting the model, We need to decide which features are available and relevant for testing and training, with predictive power.
+convert Categorical variable with Numerical values(0 and 1), for example here, there are some non numerical factors. what we are trying to do is making them numerical, like...using rename function.
+Logistic Regression transforms its output using the sigmoid function, which maps the linear regression output to a probability value between 0 and 1. The sigmoid function is defined as follows: σ(z) = 1 / (1 + e^(-z))
+Then it makes a hypothesis on the predicted probability of the applicant being eligible for the loan, after that, train the model. and at last, we compare the predicted probability (hθ(x)) to a threshold (usually 0.5). If hθ(x) is greater than or equal to 0.5, the applicant is classified as eligible for the loan; otherwise, the applicant is classified as not eligible.
+Decision Trees create a flowchart-like model by making a series of binary decisions based on input features, ultimately leading to a predicted class label (e.g., "eligible" or "not eligible") for each instance in the dataset.
+zuihou keyi ensemble different models

@@ -1,0 +1,42 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 119,
+    "sha256": "3cf8c52406b8c76da8fa1704151c37373527516f3d1b8eb458eab5b6df7ebfef"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1401,
+    "sha256": "672e9a48ed1ceda20d3b784c2999233d58b5e0ceb82b6c6e49d3bed3d25ee3b4"
+  },
+  {
+    "path": "archive/loan_presentation_text.txt",
+    "bytes": 4431,
+    "sha256": "e68da47ca98abffcab1186a04cdb3c5252da1c2aa173a36876cbabd03aa2798d"
+  },
+  {
+    "path": "docs/DATA_POLICY.md",
+    "bytes": 1030,
+    "sha256": "ad61149bedd5fe09a5b1af161755d335b6bf7f87a9fa68b8d593f24e18e9f909"
+  },
+  {
+    "path": "docs/PROVENANCE.json",
+    "bytes": 536,
+    "sha256": "a93229a78e068d0f8cb8694f3d78be9598c00ef6e319b31aa503db53858ecad3"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 64,
+    "sha256": "8a9bb091acbbfffe054b7fc01d5584bf7be86caac5d15808aa5591749aaebc86"
+  },
+  {
+    "path": "results/archived_audit.json",
+    "bytes": 1370,
+    "sha256": "e1fb7643722e2fac068d626553d1a119421b557abbf2d7ab74cb63d2bd916e5f"
+  },
+  {
+    "path": "src/reproduce.py",
+    "bytes": 3211,
+    "sha256": "32a933cf8442668fb365c3b860b5108d950806bf229e6310a5467df954ef5e67"
+  }
+]
