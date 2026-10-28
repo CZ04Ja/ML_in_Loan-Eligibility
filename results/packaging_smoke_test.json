@@ -1,0 +1,56 @@
+{
+  "run_date": "2026-10-29",
+  "result": {
+    "kind": "SYNTHETIC smoke test; not historical loan data",
+    "rows": 240,
+    "train": 180,
+    "test": 60,
+    "target": "approval label, NOT default",
+    "split_seed": 42,
+    "results": {
+      "majority": {
+        "accuracy": 0.5333333333333333,
+        "macro_f1": 0.34782608695652173,
+        "confusion_true_rows_pred_columns_N_Y": [
+          [
+            0,
+            28
+          ],
+          [
+            0,
+            32
+          ]
+        ]
+      },
+      "logistic": {
+        "accuracy": 0.5833333333333334,
+        "macro_f1": 0.5822890559732665,
+        "confusion_true_rows_pred_columns_N_Y": [
+          [
+            16,
+            12
+          ],
+          [
+            13,
+            19
+          ]
+        ]
+      },
+      "forest": {
+        "accuracy": 0.6166666666666667,
+        "macro_f1": 0.6157059314954052,
+        "confusion_true_rows_pred_columns_N_Y": [
+          [
+            17,
+            11
+          ],
+          [
+            12,
+            20
+          ]
+        ]
+      }
+    },
+    "warning": "No dated or external validation; no lending deployment claim."
+  }
+}
